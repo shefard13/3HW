@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список покупок</title>
+    <style>
+    body {
+            width: 850px;
+            margin-left: auto;
+            margin-right: auto;
+            background-image: url('https://html5book.ru/wp-content/uploads/2015/06/background28.jpg');
+            background-repeat: repeat;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    
+  <h1>Список покупок</h1>  
+  <form action="/korzina" method="POST">
+    <p>
+        
+        <label>Food</label><br>
+    <ul> 
+        <label>
+          <input type="checkbox" name="Food" value="Sandwich">
+          Sandwich
+        </label>
+    </ul>
+    <ul>
+        <label>
+          <input type="checkbox" name="Food" value="Pizza">
+          Pizza
+        </label>
+    </ul>
+    <ul>
+        <label>
+          <input type="checkbox" name="Food" value="Hamburger">
+          Hamburger
+        </label>
+    </ul>
+
+    <label>Drink</label><br>
+    <ul> 
+        <label>
+          <input type="checkbox" name="Food" value="Milk">
+          Milk
+        </label>
+    </ul>
+    <ul>
+        <label>
+          <input type="checkbox" name="Food" value="Beer">
+          Beer
+        </label>
+    </ul>
+    <ul>
+        <label>
+          <input type="checkbox" name="Food" value="Vine">
+          Vine
+        </label>
+    </ul>
+
+    <label>Other</label><br>
+    <ul> 
+        <label>
+          <input type="checkbox" name="Food" value="Yoghurt">
+          Yoghurt
+        </label>
+    </ul>
+    <ul>
+        <label>
+          <input type="checkbox" name="Food" value="Candy">
+          Candy
+        </label>
+    </ul>
+    <ul>
+        <label>
+          <input type="checkbox" name="Food" value="White chocolate">
+          White chocolate
+        </label>
+    </ul>
+    <input type="button" value="Печать" onclick="print()"></input>
+      </p>
+   </form>
+</body>
+</html>
